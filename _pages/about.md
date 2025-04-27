@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='https://www.upf.edu/web/iis/about'>MSc. in AI</a> 
+  <a href='https://www.upf.edu/web/iis/academic-information'>MSc. in IIS (AI)</a> 
   Candidate @UPF • 
   <a href='https://www.anahuac.mx/mexico/'>BSc. Mechatronics</a> @Aunáhuac University • 
   <a href='https://circontrol.com/es/'>SW Engineer</a> @Circontrol
