@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rcrtss.github.io/sitemap.xml
