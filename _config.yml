@@ -90,7 +90,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: blog # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: "because my notes app was getting crowded" # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -256,7 +256,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["ai"] # these tags will be displayed on the front page of your blog
+display_tags: ["ai", "search"] # these tags will be displayed on the front page of your blog
 display_categories: ["learning"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

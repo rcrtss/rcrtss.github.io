@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='https://www.upf.edu/web/iis/academic-information'>MSc. in IIS (AI)</a> 
+  Incoming <a href='https://www.upf.edu/web/iis/academic-information'>MSc. in IIS (AI)</a> 
   Candidate @UPF • 
   <a href='https://www.anahuac.mx/mexico/'>BSc. Mechatronics</a> @Aunáhuac University • 
   <a href='https://circontrol.com/es/'>SW Engineer</a> @Circontrol
@@ -14,7 +14,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>From Mexico City</p>
-    <p>Living in Barcelona, Spain</p>
+    <p>Living in Barcelona</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -32,7 +32,7 @@ latest_posts:
 
 Hi there! 👋 Glad to see you around.
 
-I'm a [hobbyist musician](/publications), [AI enthusiast](/publications/), [mechatronics engineer](/publications/), and [software developer](/publications/) born and raised in Mexico City, currently living in Barcelona.
+I'm a [hobbyist musician](/projects/#fun), [AI enthusiast](/blog/tag/ai/), [mechatronics engineer](/projects/#work), and [software developer](/publications/) born and raised in Mexico City, currently living in Barcelona.
 
 I have been working as a software engineer for about five years, and I can say I'm starting to get the hang of it 😅.
 
