@@ -72,15 +72,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-notes-on-classical-planning",
+            },{id: "post-comparing-performance-of-various-search-algorithms-in-a-forward-planning-agent",
         
-          title: "notes on classical planning",
+          title: "comparing performance of various search algorithms in a forward-planning agent",
         
-        description: "this post collects some notes and key concepts on classical planning",
+        description: "this post is a comparison of the performance of various uninformed and informed search algorithms",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/hashnode-1/";
+            window.location.href = "/blog/2024/hashnode-0/";
           
         },
       },{id: "books-the-godfather",
