@@ -32,7 +32,7 @@ latest_posts:
 
 Hi there! 👋 Glad to see you around.
 
-I'm a [hobbyist musician](/projects/#fun), [AI enthusiast](/blog/tag/ai/), [mechatronics engineer](/projects/#work), and [software developer](/publications/) born and raised in Mexico City, currently living in Barcelona.
+I'm a [hobbyist musician](/music/), [AI enthusiast](/blog/tag/ai/), [mechatronics engineer](/projects/#work), and [software developer](/cv/#work-1) born and raised in Mexico City, currently living in Barcelona.
 
 I have been working as a software engineer for about five years, and I can say I'm starting to get the hang of it 😅.
 
