@@ -81,8 +81,8 @@ ninja.data = [{
           section: "News",},{id: "news-un-altre-dia-mes-out-now",
           title: 'UN ALTRE DIA MES out now! 🥁',
           description: "",
-          section: "News",},{id: "projects-cv2word",
-          title: 'CV2Word',
+          section: "News",},{id: "projects-cv-assistant",
+          title: 'cv assistant',
           description: "app that converts any cv in pdf format to word docs with pre-designed templates",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
