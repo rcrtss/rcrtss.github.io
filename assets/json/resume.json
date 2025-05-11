@@ -90,10 +90,10 @@
       "startDate": "2015-08-01",
       "endDate": "2020-05-01",
       "score": "9.13/10.00",
-      "courses": []
+      "courses": ["Control Theory", "Robotics", "Linear Algebra", "Calculus", "Statistics and Probability", "Automation", "Embedded Systems", "Advanced Topics on Informatics", "Electronics", "Digital Signal Processing"]
     },
     {
-      "institution": "L’École Nationale d’Ingénieurs De Tarbes",
+      "institution": "L'École Nationale d'Ingénieurs De Tarbes",
       "location": "Tarbes, France",
       "url": "",
       "area": "Mechanical Engineering",
@@ -101,18 +101,18 @@
       "startDate": "2019-02-01",
       "endDate": "2019-06-01",
       "score": "16.74/20",
-      "courses": []
+      "courses": ["Project Management", "Projects on Robotics", "French Language"]
     },
     {
       "institution": "MIT Professional Education",
       "location": "Online",
-      "url": "",
+      "url": "https://credentials.professional.mit.edu/c29c29ee-a2af-4260-b128-90373fba0f11#acc.8hnsQbEV",
       "area": "Applied Data Science",
       "studyType": "Professional Certificate",
       "startDate": "2024-11-01",
-      "endDate": "2024-11-01",
+      "endDate": "2025-04-27",
       "score": "16 CEUs",
-      "courses": []
+      "courses": ["Statistics for Machine Learning", "Exploratory Data Analysis", "Linear Regression", "Deep Learning and Natural Language Processing", "Decision Trees and Time Series", "Recommender Systems"]
     }
   ],
   "awards": [
