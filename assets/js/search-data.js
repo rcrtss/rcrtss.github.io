@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-music",
           title: "music",
-          description: "don&#39;t mind if I do",
+          description: "space for me to share about music",
           section: "Navigation",
           handler: () => {
             window.location.href = "/music/";
@@ -75,16 +75,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-marea-y-viento-out-now",
+          title: 'MAREA Y VIENTO out now! 🥁',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-un-altre-dia-mes-out-now",
+          title: 'UN ALTRE DIA MES out now! 🥁',
           description: "",
           section: "News",},{id: "projects-cv2word",
           title: 'CV2Word',
