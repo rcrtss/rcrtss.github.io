@@ -2,7 +2,7 @@
 layout: page
 title: music
 permalink: /music/
-description: don't mind if I do
+description: space for me to share about music
 nav: true
 nav_order: 6
 ---
