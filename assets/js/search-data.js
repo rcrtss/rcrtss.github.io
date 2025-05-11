@@ -37,7 +37,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/music/";
           },
-        },{id: "post-comparing-performance-of-various-search-algorithms-in-a-forward-planning-agent",
+        },{id: "post-using-classical-planning-for-overcooked",
+        
+          title: "using classical planning for overcooked",
+        
+        description: "this post is a practical application of classical planning to solve a level of the videogame `overcooked 2`",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/hashnode-5/";
+          
+        },
+      },{id: "post-uninformed-search-algorithms",
+        
+          title: "uninformed search algorithms",
+        
+        description: "this post is a recap of the most common informed search algorithms for graphs and trees",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/hashnode-1/";
+          
+        },
+      },{id: "post-comparing-performance-of-various-search-algorithms-in-a-forward-planning-agent",
         
           title: "comparing performance of various search algorithms in a forward-planning agent",
         
