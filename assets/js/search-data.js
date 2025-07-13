@@ -9,68 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "some personal and professional projects I have worked on",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "cv",
           description: "summary of my personal and professional trayectory",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-music",
-          title: "music",
-          description: "space for me to share about music",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/music/";
-          },
-        },{id: "post-using-classical-planning-for-overcooked",
-        
-          title: "using classical planning for overcooked",
-        
-        description: "this post is a practical application of classical planning to solve a level of the videogame `overcooked 2`",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/hashnode-5/";
-          
-        },
-      },{id: "post-uninformed-search-algorithms",
-        
-          title: "uninformed search algorithms",
-        
-        description: "this post is a recap of the most common informed search algorithms for graphs and trees",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/hashnode-1/";
-          
-        },
-      },{id: "post-comparing-performance-of-various-search-algorithms-in-a-forward-planning-agent",
-        
-          title: "comparing performance of various search algorithms in a forward-planning agent",
-        
-        description: "this post is a comparison of the performance of various uninformed and informed search algorithms",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/hashnode-0/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
