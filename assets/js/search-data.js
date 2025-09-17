@@ -16,18 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-marea-y-viento-out-now",
-          title: 'MAREA Y VIENTO out now! 🥁',
-          description: "",
-          section: "News",},{id: "news-un-altre-dia-mes-out-now",
-          title: 'UN ALTRE DIA MES out now! 🥁',
-          description: "",
-          section: "News",},{id: "projects-cv-assistant",
+        },{id: "projects-cv-assistant",
           title: 'cv assistant',
           description: "app that converts any cv in pdf format to word docs with pre-designed templates",
           section: "Projects",handler: () => {
