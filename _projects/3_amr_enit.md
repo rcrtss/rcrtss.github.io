@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Following a Human with an Autonomous Mobile Robot
+title: following a human with an autonomous mobile robot
 description: As part of the European Project Semester, we developed a software solution for an AMR to follow a person while avoiding static and dynamic obstacles.
 importance: 1
 img: "assets/img/projects/amr_enit/folltrack_enit.png"
 category: academic
 related_publications: false
 ---
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/amr_enit/folltrack_enit.png" title="Pioneer LX Omron Adept" class="img-fluid rounded z-depth-1" %}
@@ -75,9 +76,9 @@ The system was implemented on the Pioneer LX mobile robot (Adept®), a general-p
 ## Solution Design and Implementation
 
 Work was split into three parallel branches:
-- Robot Control – low-level motor commands, sensor data handling, ARIA actions.
-- Navigation – algorithms for path planning and obstacle avoidance.
-- Target Tracking – human position detection using Microsoft Kinect and OpenNI/NITE libraries for skeleton tracking
+- Robot Control: low-level motor commands, sensor data handling, ARIA actions.
+- Navigation: algorithms for path planning and obstacle avoidance.
+- Target Tracking: human position detection using Microsoft Kinect and OpenNI/NITE libraries for skeleton tracking
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -148,9 +149,8 @@ The navigation strategy was based on the Potential Field Method, where attractiv
 
 ## Results
 
-Results
-- Version 1: Basic person-following without obstacle avoidance.
-- Version 2: Human following with static obstacle avoidance, extended to handle some dynamic obstacles.
+- **Version 1**: Basic person-following without obstacle avoidance.
+- **Version 2**: Human following with static obstacle avoidance, extended to handle some dynamic obstacles.
 - Achieved safe and stable human-following behavior in indoor tests.
 - Delivered a working prototype validated by ENIT as a demonstration of autonomous mobile robotics capabilities
 
@@ -179,6 +179,6 @@ Results
 ## What did we miss?
 
 Several improvements were identified to extend the system’s robustness and performance:
-- State Estimation with Kalman Filter – Incorporating a Kalman filter could improve tracking stability by fusing Kinect depth data with robot odometry, reducing noise and handling temporary occlusions.
-- Mitigating Target Loss – Since the Kinect sensor is fixed to the robot chassis, target loss occurs when the person exits its field of view. A possible enhancement is to mount the sensor on a pan-tilt mechanism or integrate sensor fusion with the laser scanner for wider coverage.
-- Smoother Control – Current motion relies on discrete responses to position updates, which can result in jerky trajectories. Implementing continuous controllers (e.g., PID or fuzzy logic) on top of the navigation layer would enable smoother, more natural robot motion.
+- State Estimation with Kalman Filter: Incorporating a Kalman filter could improve tracking stability by fusing Kinect depth data with robot odometry, reducing noise and handling temporary occlusions.
+- Mitigating Target Loss: Since the Kinect sensor is fixed to the robot chassis, target loss occurs when the person exits its field of view. A possible enhancement is to mount the sensor on a pan-tilt mechanism or integrate sensor fusion with the laser scanner for wider coverage.
+- Smoother Control: Current motion relies on discrete responses to position updates, which can result in jerky trajectories. Implementing continuous controllers (e.g., PID or fuzzy logic) on top of the navigation layer would enable smoother, more natural robot motion.
