@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "some personal and professional projects I have worked on",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "summary of my personal and professional trayectory",
           section: "Navigation",
@@ -20,7 +27,42 @@ ninja.data = [{
           title: 'cv assistant',
           description: "app that converts any cv in pdf format to word docs with pre-designed templates",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/1_cv_assistant/";
+            },},{id: "projects-switching-recommender-system-for-music-platform",
+          title: 'switching recommender system for music platform',
+          description: "capstone project in recommender systems for MIT applied data science program",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_rec_system/";
+            },},{id: "projects-following-a-human-with-an-autonomous-mobile-robot",
+          title: 'Following a Human with an Autonomous Mobile Robot',
+          description: "As part of the European Project Semester, we developed a software solution for an AMR to follow a person while avoiding static and dynamic obstacles.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_amr_enit/";
+            },},{id: "projects-controller-for-liquid-mixing-station",
+          title: 'controller for liquid mixing station',
+          description: "embedded system and software to control a liquid mixing station",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_liquid_mix/";
+            },},{id: "projects-kinematic-model-of-quadruped-robot",
+          title: 'kinematic model of quadruped robot',
+          description: "modelled the inverse kinematics of a quadruped robot in CAE software",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_chop_model/";
+            },},{id: "projects-current-controlled-power-source",
+          title: 'current-controlled power source',
+          description: "built a variadic DC 18V power source",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_voltage_source/";
+            },},{id: "projects-multi-agent-round-table-platform-wip",
+          title: 'multi-agent round table platform (wip)',
+          description: "work in progress for a decision-support platform based in a round table discussion",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_multi_agent_roundtable/";
+            },},{id: "projects-indirect-calorimetry-cage",
+          title: 'indirect calorimetry cage',
+          description: "designed and built an indirect calorimetry cage to measure heat production in laboratory rats, for studying obesity",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_indirect_calorimetry_cage/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
