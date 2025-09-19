@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: some personal and professional projects I have worked on
+description: In this section I upload some of my work through academia, industry, and others. You'll find examples of my work in Robotics, Embedded Systems, Software Development, and Intelligent Systems Integration.
 nav: true
 nav_order: 2
 display_categories: [academic, professional, fun]
