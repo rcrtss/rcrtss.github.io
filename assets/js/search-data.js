@@ -30,16 +30,16 @@ ninja.data = [{
               window.location.href = "/projects/1_cv_assistant/";
             },},{id: "projects-switching-recommender-system-for-music-platform",
           title: 'switching recommender system for music platform',
-          description: "capstone project in recommender systems for MIT applied data science program",
+          description: "Capstone project in recommender systems for MIT applied data science program.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_rec_system/";
-            },},{id: "projects-following-a-human-with-an-autonomous-mobile-robot",
-          title: 'following a human with an autonomous mobile robot',
+            },},{id: "projects-autonomous-mobile-robot-that-follows-a-target",
+          title: 'autonomous mobile robot that follows a target',
           description: "As part of the European Project Semester, we developed a software solution for an AMR to follow a person while avoiding static and dynamic obstacles.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_amr_enit/";
-            },},{id: "projects-controller-for-liquid-mixing-station",
-          title: 'controller for liquid mixing station',
+            },},{id: "projects-mcu-based-embedded-control-system-for-liquid-mixing-station",
+          title: 'mcu-based embedded control system for liquid mixing station',
           description: "Embedded control system for the Festo MPS® PA mixing station, replacing traditional PLCs with a cost-effective Arduino-based solution.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_liquid_mix/";
