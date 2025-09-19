@@ -177,9 +177,35 @@
       "summary": "Presentation on an application of the eigenvalue problem in vibration analysis."
     }
   ],
+  "projects": [
+    {
+      "name": "CV Assistant App",
+      "summary": "Desktop application that uses LLMs to populate a DOCX template from a provided PDF CV. Built with LangChain and PySide.",
+      "highlights": ["PDF parsing", "LLM integration", "UI with PySide"],
+      "startDate": "2023-11-01",
+      "endDate": "2024-09-01",
+      "url": "/projects/1_cv_assistant/"
+    },
+    {
+      "name": "Autonomous Mobile Robot that Follows a Target",
+      "summary": "Developed software for the Pioneer LX robot to autonomously follow a person using Kinect-based tracking and potential field navigation, with obstacle avoidance and gesture recognition.",
+      "highlights": ["C++ with ARIA library", "Kinect skeleton tracking", "Potential field navigation", "Obstacle avoidance"],
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-01",
+      "url": "/projects/3_amr_enit/"
+    },
+    {
+      "name": "MCU-Based Embedded Control System for Liquid Mixing Station",
+      "summary": "Designed and implemented a PI-controlled embedded system for the Festo MPS PA mixing station, replacing a PLC with Arduino boards for dosing, mixing, and real-time monitoring via LabVIEW dashboard.",
+      "highlights": ["Arduino PI control", "Custom HMI", "Sensor integration", "LabVIEW live dashboard"],
+      "startDate": "2017-02-01",
+      "endDate": "2017-06-01",
+      "url": "/projects/4_liquid_mix/"
+    }
+  ],
   "skills": [
     {
-      "name": "Software Engineering",
+      "name": "Engineering",
       "level": "Advanced",
       "icon": "",
       "keywords": [
@@ -238,15 +264,5 @@
       "keywords": ["Philosophy", "Scuba Diving"]
     }
   ],
-  "references": [],
-  "projects": [
-    {
-      "name": "CV Assistant App",
-      "summary": "Desktop application that uses LLMs to populate a DOCX template from a provided PDF CV. Built with LangChain and PySide.",
-      "highlights": ["PDF parsing", "LLM integration", "UI with PySide"],
-      "startDate": "2023-11-01",
-      "endDate": "2024-09-01",
-      "url": ""
-    }
-  ]
+  "references": []
 }

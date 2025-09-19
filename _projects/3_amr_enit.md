@@ -1,6 +1,6 @@
 ---
 layout: page
-title: following a human with an autonomous mobile robot
+title: autonomous mobile robot that follows a target
 description: As part of the European Project Semester, we developed a software solution for an AMR to follow a person while avoiding static and dynamic obstacles.
 importance: 1
 img: "assets/img/projects/amr_enit/folltrack_enit.png"

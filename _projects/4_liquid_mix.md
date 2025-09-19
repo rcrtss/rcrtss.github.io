@@ -1,8 +1,8 @@
 ---
 layout: page
-title: controller for liquid mixing station
+title: mcu-based embedded control system for liquid mixing station
 description: Embedded control system for the Festo MPS® PA mixing station, replacing traditional PLCs with a cost-effective Arduino-based solution.
-importance: 2
+importance: 3
 img: "assets/img/projects/festo_control/festo_friz.png"
 category: academic
 related_publications: false
@@ -14,7 +14,7 @@ related_publications: false
     </div>
 </div>
 <div class="caption">
-    Prototype circuit for the final project for Embedded Systems course as part of the Mechatronics Engineering Bachelor's degree.
+    Prototype circuit for the final project of the Embedded Systems course as part of the Mechatronics Engineering Bachelor's degree.
 </div>
 
 <!-- ########## INTRO ########## -->
