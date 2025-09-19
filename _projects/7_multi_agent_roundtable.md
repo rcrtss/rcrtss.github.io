@@ -3,7 +3,7 @@ layout: page
 title: multi-agent round table platform (wip)
 description: work in progress for a decision-support platform based in a round table discussion
 importance: 2
-category: professional
+category: fun # change
 related_publications: false
 ---
 

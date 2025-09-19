@@ -133,6 +133,13 @@
   ],
   "certificates": [
     {
+      "name": "Artificial Intelligence Nanodegree",
+      "date": "19/09/2925",
+      "issuer": "Udacity by Accenture",
+      "url": "https://www.udacity.com/certificate/e/7c6ee48a-3fb6-11ef-8c31-4f82d5b73939",
+      "icon": ""
+    },
+    {
       "name": "IELTS Academic English Certificate (C1)",
       "date": "",
       "issuer": "ETS",

@@ -5,7 +5,7 @@ permalink: /projects/
 description: In this section I upload some of my work through academia, industry, and others. You'll find examples of my work in Robotics, Embedded Systems, Software Development, and Intelligent Systems Integration.
 nav: true
 nav_order: 2
-display_categories: [academic, professional, fun]
+display_categories: [academic] # Add professional and fun
 horizontal: false
 ---
 

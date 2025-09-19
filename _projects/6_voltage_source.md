@@ -3,7 +3,7 @@ layout: page
 title: current-controlled power source
 description: built a variadic DC 18V power source
 importance: 4
-category: academic
+category: fun # change
 related_publications: false
 ---
 
