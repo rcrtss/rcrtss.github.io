@@ -8,6 +8,9 @@ category: academic
 related_publications: false
 ---
 
+<div class="caption">
+    Co-authors: Daniel Clapa, Jorren Gys and Jorren Schepers.
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/amr_enit/folltrack_enit.png" title="Pioneer LX Omron Adept" class="img-fluid rounded z-depth-1" %}

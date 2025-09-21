@@ -8,6 +8,9 @@ category: academic
 related_publications: false
 ---
 
+<div class="caption">
+    Co-author: Jaime Cárdenas Cervantes.
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/festo_control/festo_friz.png" title="Fritzing diagram of prototype" class="img-fluid rounded z-depth-1" %}
