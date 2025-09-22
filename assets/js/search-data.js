@@ -30,7 +30,32 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-cv-assistant",
+        },{id: "education-bsc-in-mechatronics-engineering",
+          title: 'BSc in Mechatronics Engineering',
+          description: "",
+          section: "Education",handler: () => {
+              window.location.href = "/education/bsc_mechatronics/";
+            },},{id: "education-diploma-in-automotive-mechatronics",
+          title: 'Diploma in Automotive Mechatronics',
+          description: "Diploma in Automotive Mechatronics from Anáhuac University.",
+          section: "Education",handler: () => {
+              window.location.href = "/education/diploma_automotive/";
+            },},{id: "education-eps-in-robotics-and-automation",
+          title: 'EPS in Robotics and Automation',
+          description: "European Project Semester at ENIT, France.",
+          section: "Education",handler: () => {
+              window.location.href = "/education/eps_enit/";
+            },},{id: "education-applied-data-science-program",
+          title: 'Applied Data Science Program',
+          description: "MIT Professional Education certificate in Applied Data Science.",
+          section: "Education",handler: () => {
+              window.location.href = "/education/mit_datascience/";
+            },},{id: "education-artificial-intelligence-nano-degree",
+          title: 'Artificial Intelligence Nano Degree',
+          description: "Udacity Nano Degree in Artificial Intelligence.",
+          section: "Education",handler: () => {
+              window.location.href = "/education/udacity_ai/";
+            },},{id: "projects-cv-assistant",
           title: 'cv assistant',
           description: "app that converts any cv in pdf format to word docs with pre-designed templates",
           section: "Projects",handler: () => {
@@ -70,6 +95,11 @@ ninja.data = [{
           description: "designed and built an indirect calorimetry cage to measure heat production in laboratory rats, for studying obesity",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_indirect_calorimetry_cage/";
+            },},{id: "projects-multi-agent-round-table-platform-wip",
+          title: 'multi-agent round table platform (wip)',
+          description: "work in progress for a decision-support platform based in a round table discussion",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_aind_projects/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
