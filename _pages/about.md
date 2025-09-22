@@ -13,7 +13,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Contact: ro_cortes10@hotmail.com</p>
+    <p>From Mexico City</p>
+    <p>Living in Barcelona</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

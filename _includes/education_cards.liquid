@@ -2,7 +2,7 @@
   <h2>Education</h2>
   <div class="education-cards">
     {% for item in site.data.education.education %}
-      <a class="edu-card" href="{{ item.url }}" target="_blank" rel="noopener">
+      <a class="edu-card" href="{{ item.url }}">
         {% if item.image %}
           <img class="edu-card-img" src="{{ item.image }}" alt="{{ item.institution }} logo" />
         {% endif %}
@@ -18,7 +18,7 @@
   <h2>Credentials</h2>
   <div class="education-cards">
     {% for item in site.data.education.credentials %}
-      <a class="edu-card" href="{{ item.url }}" target="_blank" rel="noopener">
+      <a class="edu-card" href="{{ item.url }}">
         {% if item.image %}
           <img class="edu-card-img" src="{{ item.image }}" alt="{{ item.institution }} logo" />
         {% endif %}
