@@ -9,7 +9,7 @@ related_publications: false
 ---
 
 <div class="caption">
-    Co-author: Jaime Cárdenas Cervantes.
+    Developed in collaboration with another student from the BSc. in Mechatronics Engineering from Universidad Anáhuac México
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,7 +24,7 @@ related_publications: false
 
 ## Overview
 
-The objective was to design and implement an embedded control system for the Festo MPS® PA mixing station, replacing traditional PLCs with a cost-effective Arduino-based solution. Requirements included:
+The objective of this project was to design and implement an embedded control system for the Festo MPS® PA mixing station, replacing traditional PLCs with a cost-effective Arduino-based solution. Requirements included:
 - Control of dosing tanks, pumps, and valves for automatic liquid mixing.
 - User interaction via a Human-Machine Interface (HMI) to select recipes, volumes, and operation parameters.
 - Accurate flow and level measurement through capacitive sensors and flow detectors.

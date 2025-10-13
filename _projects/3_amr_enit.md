@@ -9,7 +9,7 @@ related_publications: false
 ---
 
 <div class="caption">
-    Co-authors: Daniel Clapa, Jorren Gys and Jorren Schepers.
+    Developed in collaboration with three other ESP students and the ENIT Engineering Department.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
