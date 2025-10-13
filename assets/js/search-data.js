@@ -85,9 +85,9 @@ ninja.data = [{
           description: "built a variadic DC 18V power source",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_voltage_source/";
-            },},{id: "projects-multi-agent-round-table-platform-wip",
-          title: 'multi-agent round table platform (wip)',
-          description: "work in progress for a decision-support platform based in a round table discussion",
+            },},{id: "projects-multi-agent-round-table-platform-camelot",
+          title: 'multi-agent round table platform: camelot',
+          description: "proof of concept for decision-support platform based in a round table discussion (wip)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_multi_agent_roundtable/";
             },},{id: "projects-indirect-calorimetry-cage",
