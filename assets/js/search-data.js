@@ -87,7 +87,7 @@ ninja.data = [{
               window.location.href = "/projects/6_voltage_source/";
             },},{id: "projects-multi-agent-round-table-platform",
           title: 'multi-agent round table platform',
-          description: "proof of concept for decision-support platform based in a round table discussion (wip)",
+          description: "proof of concept for decision-support platform based in a round table discussion (work in progress)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_multi_agent_roundtable/";
             },},{id: "projects-indirect-calorimetry-cage",
