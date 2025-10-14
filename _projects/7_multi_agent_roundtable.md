@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'multi-agent round table platform'
-description: proof of concept for decision-support platform based in a round table discussion (wip)
+description: proof of concept for decision-support platform based in a round table discussion (work in progress)
 importance: 2
 category: wip
 img: "assets/img/projects/mas_dss/gawain_header.png"
