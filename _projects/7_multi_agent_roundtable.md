@@ -4,7 +4,7 @@ title: 'multi-agent round table platform'
 description: proof of concept for decision-support platform based in a round table discussion (work in progress)
 importance: 2
 category: wip
-img: "assets/img/projects/mas_dss/gawain_header.png"
+img: "assets/img/projects/mas_dss/gawain_logo_2.png"
 related_publications: false
 ---
 
@@ -24,7 +24,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_logo_1.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_logo_2.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
