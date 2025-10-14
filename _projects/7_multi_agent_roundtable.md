@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 'multi-agent round table platform: camelot'
+title: 'multi-agent round table platform'
 description: proof of concept for decision-support platform based in a round table discussion (wip)
 importance: 2
 category: wip
-img: "assets/img/projects/mas_dss/camelot_header.png"
+img: "assets/img/projects/mas_dss/gawain_header.png"
 related_publications: false
 ---
 
@@ -14,31 +14,37 @@ related_publications: false
     — Malory, Thomas. <em>Le Morte d’Arthur. Book XX, Chapter XVI</em>
 </div>
 
+---
+
 <!-- ########## INTRO ########## -->
+
 ## Introduction
 
-Camelot is a collaborative decision-support platform where multiple AI agents, each with unique expertise, debate and cooperate under a structured set of rules to help humans reach better, more transparent decisions.
+*Gawain* (tentative project name) is a **collaborative decision-support platform** where various multi-model AI agents, each with unique role and focus, debate and cooperate under a structured set of rules to help the user reach better, more transparent decisions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/camelot_logo_2.png" title="Fritzing diagram of prototype" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_logo_1.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Actual logo and name of project to be defined.
 </div>
 
 ---
 
-### What is Camelot?
+### What is *Gawain*?
 
-Let’s use an analogy to introduce Camelot.
+Let’s use an analogy to introduce *Gawain*.
 
 Imagine a kingdom where the King wants to **solve a problem** —say, 
 
-- How to rebuild a bridge or negotiate peace among distant lands. 
+*How to negotiate peace among distant lands*. 
   - The kingdom is vast, inhabited by many kinds of beings: mages, elves, and merfolk. 
-  - Each knows their own domain deeply, but the King doesn’t understand their world well enough to decide alone. 
-  - So, instead of relying on a single advisor, the King convenes a **Round Table**—a forum where the most capable experts discuss, challenge, and refine one another’s ideas until the best solution emerges.
+  - Each knows their own **domain** deeply, but the King doesn’t understand their world well enough to decide alone. 
+  - So, instead of relying on a single advisor, the King convenes a **Round Table**: a forum where the most capable experts discuss, challenge, and refine one another’s ideas until the best solution **emerges**.
 
-Camelot works the same way: you (the user) act as the King, defining your problem, and a team of specialized AI agents collaborate—under the rules of the Round Table—to provide structured, multi-perspective reasoning while a run-time summary of the discussion is provided to you.
+*Gawain* works the same way: you (the user) define your problem, and a team of specialized AI agents collaborate, under the rules of the Round Table, to provide structured, multi-perspective reasoning while a run-time summary of the discussion is provided to you.
 
 ---
 
@@ -59,12 +65,12 @@ That’s why the King needs a **Round Table**.
 
 #### Round Table
 
-The Round Table is the central coordination mechanism of Camelot. It’s where AI agents exchange ideas through structured rounds of discussion, guided by the **rules engine**. Each round refines the collective reasoning, converging on higher-quality, multi-perspective solutions.  
+The Round Table is the central coordination mechanism of *Gawain*. It’s where AI agents exchange ideas through structured rounds of discussion, guided by the **rules engine**. Each round refines the collective reasoning, converging on higher-quality, multi-perspective solutions.  
 The Round Table embodies collaborative intelligence—agents debate, challenge, and vote according to the scenario’s context.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/camelot_02.jpg" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_02.jpg" title="System Overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -150,7 +156,7 @@ The dashboard brings transparency and control to the user, making AI collaborati
 ##### Real World Example
 
 Suppose a **tech startup** wants to decide whether to migrate from local servers to the cloud.  
-Here’s how Camelot operates:
+Here’s how *Gawain* operates:
 
 1. The CEO (the King) describes the problem: *“Should we move our infrastructure to the cloud?”*
 2. The **Gatekeeper** clarifies questions about company size, security needs, and cost constraints.
@@ -164,6 +170,6 @@ Here’s how Camelot operates:
 7. The **Notary Agent** summarizes the consensus: a structured recommendation balancing cost, scalability, and risk.
 8. The King reads the report in the **Royal Dashboard**, reviews confidence metrics, and makes an informed decision.
 
-Camelot thus provides structured, multi-perspective reasoning that is explainable, auditable, and ready for real-world decision-making.
+*Gawain* thus provides structured, multi-perspective reasoning that is explainable, auditable, and ready for real-world decision-making.
 
 ---
