@@ -24,7 +24,11 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_logo_2.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
+        <video autoplay loop muted style="max-width: 100%; border-radius: 8px;">
+            <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/gawain_mov.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/gawain_mov.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
 <div class="caption">
