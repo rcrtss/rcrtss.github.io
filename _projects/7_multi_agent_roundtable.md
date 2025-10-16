@@ -4,7 +4,7 @@ title: 'multi-agent round table platform'
 description: proof of concept for decision-support platform based in a round table discussion (work in progress)
 importance: 2
 category: wip
-img: "assets/img/projects/mas_dss/gawain_logo_2.png"
+img: "assets/img/projects/mas_dss/gawain_logo.png"
 related_publications: false
 ---
 
@@ -22,13 +22,18 @@ related_publications: false
 
 *Gawain* (tentative project name) is a **collaborative decision-support platform** where various multi-model AI agents, each with unique role and focus, debate and cooperate under a structured set of rules to help the user reach better, more transparent decisions.
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video autoplay loop muted style="max-width: 100%; border-radius: 8px;">
             <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/gawain_mov.mp4" type="video/mp4">
             <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/gawain_mov.webm" type="video/webm">
             Your browser does not support the video tag.
         </video>
+    </div>
+</div> -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_logo.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
