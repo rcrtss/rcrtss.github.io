@@ -4,7 +4,7 @@ title: 'multi-agent round table platform'
 description: proof of concept for decision-support platform based in a round table discussion (work in progress)
 importance: 2
 category: wip
-img: "assets/img/projects/mas_dss/gawain_logo.png"
+img: "assets/img/projects/mas_dss/gawain_white.png"
 related_publications: false
 ---
 
@@ -33,7 +33,9 @@ related_publications: false
 </div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_logo.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
+        <div class="w-75 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_white.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
 </div>
 <div class="caption">
@@ -42,18 +44,42 @@ related_publications: false
 
 ---
 
-### What is *Gawain*?
+### Why *Gawain*?
 
 Let’s use an analogy to introduce *Gawain*.
 
-Imagine a kingdom where the King wants to **solve a problem** —say, 
+Imagine you are a King who wants to **solve a problem** —say, *to negotiate peace among distant lands*. 
+- Your kingdom is vast, inhabited by many kinds of beings, for example: mages, elves, and merfolk.
+- Each knows their own **domain** deeply.
+- You, on the other hand, don't understand their world well enough to decide alone.
 
-*How to negotiate peace among distant lands*. 
-  - The kingdom is vast, inhabited by many kinds of beings: mages, elves, and merfolk. 
-  - Each knows their own **domain** deeply, but the King doesn’t understand their world well enough to decide alone. 
-  - So, instead of relying on a single advisor, the King convenes a **Round Table**: a forum where the most capable experts discuss, challenge, and refine one another’s ideas until the best solution **emerges**.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-50 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_king.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
 
-*Gawain* works the same way: you (the user) define your problem, and a team of specialized AI agents collaborate, under the rules of the Round Table, to provide structured, multi-perspective reasoning while a run-time summary of the discussion is provided to you.
+So, instead of relying on a single advisor, the King convenes a **Round Table**: a forum where the most capable experts discuss, challenge, and refine one another’s ideas until the best solution **emerges**.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-75 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_kingdom.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+
+#### _Gawain_ works the same way:
+
+- You define your problem.
+- A team of specialized AI agents is spawned to **collaborate** by taking part in a structured **multi-perspective dialogue**.
+- Throughout the session, the user can interact with the agents via a **Round Table Dashboard**.
+
+_Gawain_ provides you with access to diverse perspectives, structured reasoning, and transparent decision-making support.
+
+> In a nutshell, _Gawain_ hopes to bring the power of **collaborative intelligence** to real-world decision-making problems.
 
 ---
 
@@ -65,7 +91,7 @@ You could try several approaches:
 
 * **Think alone.** You may miss critical factors or domain knowledge.
 * **Consult real experts.** Effective, but expensive and time-consuming.
-* **Ask a single LLM.** Useful if you can prompt well and validate results, but risky—one model might hallucinate or overlook key perspectives.
+* **Ask a single LLM.** Useful if you can prompt well and validate results, but risky: one model might hallucinate or overlook key perspectives.
 
 These options often fail to capture the diversity of reasoning needed for real-world problems.  
 That’s why the King needs a **Round Table**.
@@ -74,31 +100,52 @@ That’s why the King needs a **Round Table**.
 
 #### Round Table
 
-The Round Table is the central coordination mechanism of *Gawain*. It’s where AI agents exchange ideas through structured rounds of discussion, guided by the **rules engine**. Each round refines the collective reasoning, converging on higher-quality, multi-perspective solutions.  
-The Round Table embodies collaborative intelligence—agents debate, challenge, and vote according to the scenario’s context.
+The Round Table is the central coordination mechanism of *Gawain*. It’s where AI agents exchange ideas through structured rounds of discussion, guided by the **rules engine**. Each round refines the collective reasoning, converging on higher-quality, multi-perspective solutions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_02.jpg" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        <div class="w-75 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable.jpg" title="System Overview" class="img-fluid rounded z-depth-1" %}    
+        </div>
     </div>
 </div>
 
+The Round Table embodies collaborative intelligence: agents debate, challenge, and vote according to the scenario’s context.
+
 ---
 
-##### Gatekeeper (Fairy)
+##### Gatekeeper
 
-The **Gatekeeping Agent** is the first entity you meet when starting a new project.  
-It acts as a facilitator between the King and the rest of the system.
+The **Gatekeeping Agent** is the first entity you meet when starting a new project, which acts as a facilitator between the King and the rest of the system.
 
-Responsibilities:
+The first task of the Gatekeeper is to **understand** your problem statement. If information is missing, it asks clarifying questions to ensure sufficient context.
 
-* Interpret the user’s problem statement.
-* Ask clarifying questions to ensure complete understanding.
-* Identify the most relevant expert roles for the task (e.g., Mage, Elf, Mermaid—each representing an LLM or model specialized in a domain).
-* Confirm the proposed agent lineup with the user.
-* Once approved, **instantiate** the team—each agent receives a role, a system prompt, and the user’s problem context.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-100 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_gatekeeper.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
 
-In essence, the Gatekeeper transforms an open-ended idea into a well-defined, multi-agent session.
+Then, it identifies the most relevant expert roles for the task (e.g., Mage, Elf, Mermaid—each representing an LLM or model specialized in a domain). Normally, 2-4 agents are selected to ensure diversity without overwhelming complexity.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-100 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable_card.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Mockup of Round Table session card in the User Interface.
+</div>
+
+Finally, it waits for your confirmation of the proposed agent lineup and your validation of the whole setup.
+
+Once approved, the Gatekeeper **instantiates** the team: each agent receives a role, a system prompt, and the user’s problem context.
+
+> In essence, the Gatekeeper transforms an open-ended idea into a well-defined, multi-agent session.
 
 ---
 
@@ -110,6 +157,17 @@ Expert Agents are autonomous LLM-based participants with specific roles and know
 * Reads all messages from the communication channel (user, other agents).
 * Participates in multiple **comment rounds**, contributing unique insights and critiques.
 * Votes or expresses confidence on emerging solutions.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-75 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_experts_interaction.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Mockup of Expert Agents interacting at the Round Table.
+</div>
 
 Their interaction is governed by the **Round Table Rules Engine**, ensuring that each round proceeds in an organized manner (e.g., discussion, rebuttal, voting, summarization).
 
@@ -125,7 +183,15 @@ It specializes in:
 * Summarizing discussion threads into structured, readable outputs.
 * Monitoring conversation dynamics (e.g., detecting loops, low-quality exchanges, or convergence).
 * Triggering events in the rules engine—like early stopping when consensus is reached.
-* Sending consolidated summaries and metadata to the **Royal Dashboard** for user review.
+* Sending consolidated summaries and metadata to the **Dashboard** for user review.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-75 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_notary.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
 
 It acts as the official record keeper of the Round Table.
 
@@ -133,10 +199,11 @@ It acts as the official record keeper of the Round Table.
 
 ##### Rules-Engine
 
-The **Round Table Rules Engine** is a finite-state machine (FSM) that governs the logic of every session.  
+The **Round Table Rules Engine** governs the logic of every session.
+
 It orchestrates:
 
-* The transition between phases (setup → discussion → voting → summary).
+* The transition between phases (e.g. setup → discussion → voting → summary).
 * The timing and flow of turns within each round.
 * The events triggered by the Notary or Gatekeeper (e.g., agent replacement, early stop, session end).
 * The consistency and reproducibility of the debate process.
@@ -147,18 +214,48 @@ This ensures that every project follows a transparent, repeatable reasoning prot
 
 ##### Dashboard
 
-The **Royal Dashboard** is the user interface connecting you to the entire system.
+The core of _Gawain_ is the **Dashboard**, the user interface connecting you to the entire system. It is the bridge between you (the King) and the Round Table, and is the _support_ part of the decision-making process.
 
-From here, you can:
+Here is where the King can follow the discussion, analyze conversation traces, interact with agents, and review results.
 
-* Interact with the agents through **Royal Chat**, sending and receiving messages transparently.
+Particularly, the Dashboard allows you to:
+
+* Interact with the agents through the **chat**, sending and receiving messages transparently.
 * Access the full conversation history, including metadata and reasoning traces.
 * Visualize conversation graphs grouped by topics or domains.
 * Monitor performance metrics, confidence levels, and vote distributions from each agent.
 * Track the evolution of proposed solutions and summaries.
 * Manage projects, sessions, and configuration options.
 
-The dashboard brings transparency and control to the user, making AI collaboration auditable and interpretable.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-75 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_dashboard.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Minimalist mockup of the Round Table Dashboard interface.
+</div>
+
+> The dashboard brings transparency and control to the user, making AI collaboration auditable and interpretable.
+
+#### Putting It All Together
+
+_Gawain_ sets up a structured environment where multiple AI agents collaborate under human supervision to help tackle complex problems.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-100 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_02.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Minimalist overview of the Gawain multi-agent decision-support system.
+</div>
+
+> A team of experts at your hands. Structured, multi-perspective reasoning. Transparency and control.
 
 ---
 
@@ -167,18 +264,16 @@ The dashboard brings transparency and control to the user, making AI collaborati
 Suppose a **tech startup** wants to decide whether to migrate from local servers to the cloud.  
 Here’s how *Gawain* operates:
 
-1. The CEO (the King) describes the problem: *“Should we move our infrastructure to the cloud?”*
+1. The CEO describes the problem: *“Should we move our infrastructure to the cloud?”*
 2. The **Gatekeeper** clarifies questions about company size, security needs, and cost constraints.
 3. It proposes three expert agents:
    * **FinOps Agent** – specialized in financial trade-offs and cost projections.
    * **DevOps Agent** – expert in deployment, scalability, and performance.
    * **Data Governance Agent** – focused on compliance, privacy, and data control.
-4. The King approves the setup.
+4. The user approves the setup.
 5. The **Round Table** begins its first discussion round. Each agent presents arguments based on its expertise.
 6. The **Rules Engine** coordinates multiple rounds of discussion, rebuttals, and voting.
 7. The **Notary Agent** summarizes the consensus: a structured recommendation balancing cost, scalability, and risk.
-8. The King reads the report in the **Royal Dashboard**, reviews confidence metrics, and makes an informed decision.
-
-*Gawain* thus provides structured, multi-perspective reasoning that is explainable, auditable, and ready for real-world decision-making.
+8. The user reads the report in the **Dashboard**, reviews confidence metrics, and makes an informed decision.
 
 ---
