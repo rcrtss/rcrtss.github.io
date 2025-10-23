@@ -22,25 +22,25 @@ related_publications: false
 
 *Gawain* (tentative project name) is a **collaborative decision-support platform** where various multi-model AI agents, each with unique role and focus, debate and cooperate under a structured set of rules to help the user reach better, more transparent decisions.
 
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <video autoplay loop muted style="max-width: 100%; border-radius: 8px;">
-            <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/gawain_mov.mp4" type="video/mp4">
-            <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/gawain_mov.webm" type="video/webm">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_white.png" title="Temporal logo of *Gawain*" class="img-fluid rounded z-depth-1" %}
+        <div class="w-50 mx-auto">
+            <video autoplay loop muted style="max-width: 100%; border-radius: 8px;">
+                <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/sped_up_video.mp4" type="video/mp4">
+                <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/sped_up_video.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 </div>
 <div class="caption">
     Actual logo and name of project to be defined.
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![Temporal logo of Gawain](assets/img/projects/mas_dss/gawain_white.png){ width=75% }
+</p> -->
 
 ---
 
@@ -56,20 +56,30 @@ Imagine you are a King who wants to **solve a problem** —say, *to negotiate pe
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-50 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_king.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_king.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![ ](assets/img/projects/mas_dss/gawain_king.png){ width=50% }
+</p> -->
 
 So, instead of relying on a single advisor, the King convenes a **Round Table**: a forum where the most capable experts discuss, challenge, and refine one another’s ideas until the best solution **emerges**.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_kingdom.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_kingdom.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![ ](assets/img/projects/mas_dss/gawain_kingdom.png){ width=75% }
+</p> -->
 
 #### _Gawain_ works the same way:
 
@@ -105,10 +115,15 @@ The Round Table is the central coordination mechanism of *Gawain*. It’s where 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable.jpg" title="System Overview" class="img-fluid rounded z-depth-1" %}    
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable.jpg" title=" " class="img-fluid rounded z-depth-1" %}    
         </div>
     </div>
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![ ](assets/img/projects/mas_dss/gawain_roundtable.png){ width=75% }
+</p> -->
 
 The Round Table embodies collaborative intelligence: agents debate, challenge, and vote according to the scenario’s context.
 
@@ -123,23 +138,33 @@ The first task of the Gatekeeper is to **understand** your problem statement. If
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-100 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_gatekeeper.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_gatekeeper.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![ ](assets/img/projects/mas_dss/gawain_gatekeeper.png){ width=100% }
+</p> -->
 
 Then, it identifies the most relevant expert roles for the task (e.g., Mage, Elf, Mermaid—each representing an LLM or model specialized in a domain). Normally, 2-4 agents are selected to ensure diversity without overwhelming complexity.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-100 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable_card.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable_card.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 <div class="caption">
     Mockup of Round Table session card in the User Interface.
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![Round Table session card mockup](assets/img/projects/mas_dss/gawain_roundtable_card.png){ width=100% }
+</p> -->
 
 Finally, it waits for your confirmation of the proposed agent lineup and your validation of the whole setup.
 
@@ -161,13 +186,18 @@ Expert Agents are autonomous LLM-based participants with specific roles and know
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_experts_interaction.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_experts_interaction.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 <div class="caption">
     Mockup of Expert Agents interacting at the Round Table.
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![Expert Agents interaction mockup](assets/img/projects/mas_dss/gawain_experts_interaction.png){ width=75% }
+</p> -->
 
 Their interaction is governed by the **Round Table Rules Engine**, ensuring that each round proceeds in an organized manner (e.g., discussion, rebuttal, voting, summarization).
 
@@ -188,10 +218,15 @@ It specializes in:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_notary.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_notary.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![Notary Agent](assets/img/projects/mas_dss/gawain_notary.png){ width=75% }
+</p> -->
 
 It acts as the official record keeper of the Round Table.
 
@@ -230,13 +265,19 @@ Particularly, the Dashboard allows you to:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_dashboard.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_dashboard.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 <div class="caption">
     Minimalist mockup of the Round Table Dashboard interface.
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![Dashboard mockup](assets/img/projects/mas_dss/gawain_dashboard.png){ width=75% }
+</p> -->
+
 
 > The dashboard brings transparency and control to the user, making AI collaboration auditable and interpretable.
 
@@ -247,13 +288,18 @@ _Gawain_ sets up a structured environment where multiple AI agents collaborate u
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-100 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_02.png" title="System Overview" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_02.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 <div class="caption">
     Minimalist overview of the Gawain multi-agent decision-support system.
 </div>
+
+<!-- PDF Version
+<p align="center">
+  ![ ](assets/img/projects/mas_dss/gawain_02.jpg){ width=100% }
+</p> -->
 
 > A team of experts at your hands. Structured, multi-perspective reasoning. Transparency and control.
 
@@ -277,3 +323,42 @@ Here’s how *Gawain* operates:
 8. The user reads the report in the **Dashboard**, reviews confidence metrics, and makes an informed decision.
 
 ---
+
+## Next Steps
+
+**I.** Research and define detailed architecture and components.
+> The implementation of this platform is ambitious and requires research in several areas. Some of them are depicted in the table below. Insights in any of these will contribute to the implementation of the project.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="w-100 mx-auto">
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_research_areas.png" title=" " class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Table of research areas relevant to the Gawain project.
+</div>
+
+**II.** Develop a minimal viable prototype (MVP) to validate core functionalities.
+
+**III.** Test with real-world scenarios and gather user feedback.
+
+**IV.** Iterate and refine based on insights and performance metrics.
+
+---
+
+<!-- 
+To export to pdf, run:
+```bash
+pandoc _projects/7_multi_agent_roundtable.md \
+  -o gawain.pdf \
+  --pdf-engine=xelatex \
+  --resource-path=. \
+  --embed-resources
+```
+ -->
+
+Rodrigo Cortés Sánchez
+MIT License © 2024
+Last updated: October 2025
