@@ -24,7 +24,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <div class="w-50 mx-auto">
+        <div class="w-75 mx-auto">
             <video autoplay loop muted style="max-width: 100%; border-radius: 8px;">
                 <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/sped_up_video.mp4" type="video/mp4">
                 <source src="{{ site.baseurl }}/assets/img/projects/mas_dss/sped_up_video.webm" type="video/webm">
