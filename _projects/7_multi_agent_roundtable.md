@@ -6,6 +6,25 @@ importance: 2
 category: wip
 img: "assets/img/projects/mas_dss/gawain_white.png"
 related_publications: false
+research_areas:
+  - front: "Multi-agent coordination and decision-making"
+    back:  "Protocols for debate, consensus, and conflict resolution among heterogeneous agents."
+  - front: "Interface design for collaborative reasoning"
+    back:  "Transparent, auditable dashboard for user–agent interaction and trace visualization."
+  - front: "Semantic requirements mapping"
+    back:  "Translate user requirements into formal constraints for goals & behavior."
+  - front: "Turn orchestration in conversational systems"
+    back:  "Structured dialogue management; avoid loops and crosstalk."
+  - front: "Incentives & aggregation (game theory, mechanism design, social choice)"
+    back:  "Incentives for cooperation; outcome aggregation."
+  - front: "Topic classification & taxonomy design"
+    back:  "Classification to select/configure expert agents."
+  - front: "Argumentation theory & MCDA"
+    back:  "Logical debate structures; weigh competing criteria."
+  - front: "Hybrid human–machine decision systems & collective intelligence"
+    back:  "Effective human-in-the-loop integration."
+  - front: "Conversation-stem tracing & provenance graphs"
+    back:  "Lineage of ideas for auditability and transparency."
 ---
 
 <div style="text-align: center; font-size: 0.85rem; font-style: italic; margin-top: 1rem;">
@@ -329,16 +348,26 @@ Here’s how *Gawain* operates:
 **I.** Research and define detailed architecture and components.
 > The implementation of this platform is ambitious and requires research in several areas. Some of them are depicted in the table below. Insights in any of these will contribute to the implementation of the project.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="w-100 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_research_areas.png" title=" " class="img-fluid rounded z-depth-1" %}
-        </div>
-    </div>
-</div>
-<div class="caption">
-    Table of research areas relevant to the Gawain project.
-</div>
+{% include flip_cards.liquid areas=page.research_areas %}
+
+<style>
+.flip-card{background:transparent;width:100%;height:160px;perspective:1000px;cursor:pointer;margin-bottom:.5rem;transition:transform .3s;border-radius:8px}
+.flip-card:hover{transform:scale(1.05)}
+.flip-card-inner{position:relative;width:100%;height:100%;text-align:center;transition:transform .8s;transform-style:preserve-3d;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,.2)}
+.flip-card.flipped .flip-card-inner{transform:rotateY(180deg)}
+.flip-card-front,.flip-card-back{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:8px;padding:1rem;display:flex;align-items:center;justify-content:center}
+.flip-card-front{background:var(--global-divider-color);border:1px solid var(--global-border-color);font-weight:bold}
+.flip-card-back{background:var(--global-theme-color-light);color:#fff;transform:rotateY(180deg)}
+@media (max-width:768px){.flip-card{height:130px}}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  document.querySelectorAll('.flip-card').forEach(function(card){
+    card.addEventListener('click',function(){ card.classList.toggle('flipped'); });
+  });
+});
+</script>
 
 **II.** Develop a minimal viable prototype (MVP) to validate core functionalities.
 
