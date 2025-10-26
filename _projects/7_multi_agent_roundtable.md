@@ -8,23 +8,23 @@ img: "assets/img/projects/mas_dss/gawain_white.png"
 related_publications: false
 research_areas:
   - front: "Multi-agent coordination and decision-making"
-    back:  "Protocols for debate, consensus, and conflict resolution among heterogeneous agents."
+    back:  "Study of architectures and algorithms that enable multiple autonomous agents to cooperate, negotiate, or compete to reach efficient collective outcomes under uncertainty."
   - front: "Interface design for collaborative reasoning"
-    back:  "Transparent, auditable dashboard for user–agent interaction and trace visualization."
+    back:  "Exploration of interaction paradigms that support transparent, structured reasoning among human and AI participants."
   - front: "Semantic requirements mapping"
-    back:  "Translate user requirements into formal constraints for goals & behavior."
-  - front: "Turn orchestration in conversational systems"
-    back:  "Structured dialogue management; avoid loops and crosstalk."
-  - front: "Incentives & aggregation (game theory, mechanism design, social choice)"
-    back:  "Incentives for cooperation; outcome aggregation."
-  - front: "Topic classification & taxonomy design"
-    back:  "Classification to select/configure expert agents."
-  - front: "Argumentation theory & MCDA"
-    back:  "Logical debate structures; weigh competing criteria."
-  - front: "Hybrid human–machine decision systems & collective intelligence"
-    back:  "Effective human-in-the-loop integration."
+    back:  "Development of methods to extract, structure, and align user-stated problems or goals (through Natural Language Interaction) with relevant ontologies or computational models."
   - front: "Conversation-stem tracing & provenance graphs"
-    back:  "Lineage of ideas for auditability and transparency."
+    back:  "Techniques to model and visualize the logical flow of a discussion, tracking claims, evidence, and dependencies over time. Uses graph-based representations for reasoning traceability and knowledge provenance."
+  - front: "Turn orchestration in conversational systems"
+    back:  "Research on coordination mechanisms that govern when and how multiple conversational agents or modules contribute to dialogue. Focus on turn-taking policies, dialogue management, and synchronization for coherent multi-party interaction."
+  - front: "Incentives & aggregation (game theory, mechanism design, social choice)"
+    back:  "Design of mechanisms that align agent incentives and fairly aggregate preferences or beliefs in group decision processes."
+  - front: "Topic classification & taxonomy design"
+    back:  "Construction of adaptive classification frameworks and semantic taxonomies that organize discussions, arguments, or research domains. Combines NLP, clustering, and ontology learning."
+  - front: "Argumentation theory & MCDA"
+    back:  "Integration of formal argumentation frameworks with multi-criteria decision analysis to evaluate competing alternatives through structured reasoning, evidence weighting, and preference modeling."
+  - front: "Hybrid human–machine decision systems & collective intelligence"
+    back:  "Study of systems combining human judgment and machine intelligence to improve group decision quality. Explores coordination models, trust calibration, and emergent collective behavior in mixed teams."
 ---
 
 <div style="text-align: center; font-size: 0.85rem; font-style: italic; margin-top: 1rem;">
@@ -345,20 +345,22 @@ Here’s how *Gawain* operates:
 
 ## Next Steps
 
-**I.** Research and define detailed architecture and components.
-> The implementation of this platform is ambitious and requires research in several areas. Some of them are depicted in the table below. Insights in any of these will contribute to the implementation of the project.
+**I.** Perform research on key areas to inform design and implementation.
+> The implementation of this project requires research in several areas. Below is a list of the proposed topics to investigate. Insights in any of these will contribute to the realization of the project.
 
 {% include flip_cards.liquid areas=page.research_areas %}
 
 <style>
-.flip-card{background:transparent;width:100%;height:160px;perspective:1000px;cursor:pointer;margin-bottom:.5rem;transition:transform .3s;border-radius:8px}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+.flip-card{background:transparent;width:100%;height:180px;perspective:1000px;cursor:pointer;margin-bottom:.5rem;transition:transform .3s;border-radius:8px}
 .flip-card:hover{transform:scale(1.05)}
 .flip-card-inner{position:relative;width:100%;height:100%;text-align:center;transition:transform .8s;transform-style:preserve-3d;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,.2)}
 .flip-card.flipped .flip-card-inner{transform:rotateY(180deg)}
-.flip-card-front,.flip-card-back{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:8px;padding:1rem;display:flex;align-items:center;justify-content:center}
+.flip-card-front,.flip-card-back{font-family: "Rubik", sans-serif;position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:8px;padding:1rem;display:flex;align-items:center;justify-content:center}
 .flip-card-front{background:var(--global-divider-color);border:1px solid var(--global-border-color);font-weight:bold}
 .flip-card-back{background:var(--global-theme-color-light);color:#fff;transform:rotateY(180deg)}
-@media (max-width:768px){.flip-card{height:130px}}
+.flip-card-back p {font-size: 0.85rem;line-height: 1.3;margin: 0}
+@media (max-width:768px){.flip-card{height:150px}}
 </style>
 
 <script>
@@ -369,11 +371,13 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 </script>
 
-**II.** Develop a minimal viable prototype (MVP) to validate core functionalities.
+**II.** Design the system architecture and components.
 
-**III.** Test with real-world scenarios and gather user feedback.
+**III.** Develop a minimal viable prototype (MVP) to validate core functionalities.
 
-**IV.** Iterate and refine based on insights and performance metrics.
+**IV.** Test with real-world scenarios and gather user feedback.
+
+**V.** Iterate and refine based on insights and performance metrics.
 
 ---
 

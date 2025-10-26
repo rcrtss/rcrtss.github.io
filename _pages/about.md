@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Incoming <a href='https://www.upf.edu/web/iis/academic-information'>MSc. in IIS (AI)</a> 
+  Incoming <a href='https://www.upf.edu/web/iis/academic-information'>MSc. in Intelligent Interactive Systems</a> 
   Candidate @UPF • 
   <a href='https://www.anahuac.mx/mexico/EscuelasyFacultades/ingenieria/licenciaturas/ingenieria-mecatronica'>BSc. Mechatronics</a> @Aunáhuac University • 
   <a href='/cv/'>SW Engineer</a>
@@ -13,8 +13,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>From Mexico City</p>
-    <p>Living in Barcelona</p>
+    <p>Rodrigo Cortés</p>
+    <p>From Mexico City, living in Barcelona</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -35,7 +35,7 @@ Hi there! 👋 Glad to see you around.
 <!-- I'm a [hobbyist musician](/music/), [AI enthusiast](/blog/tag/ai/), [mechatronics engineer](/projects/#work), and [software developer](/cv/#work-1) born and raised in Mexico City, currently living in Barcelona. -->
 I'm a hobbyist musician, AI enthusiast, mechatronics engineer, and software developer, born and raised in Mexico City, currently living in Barcelona.
 
-I've been working as a software engineer more than five years, and I'm currently looking for my next professional challenge.
+I've been working as a software engineer for five years and I'm currently looking for my next professional challenge.
 
 <!-- Explore my personal web site to:
 
