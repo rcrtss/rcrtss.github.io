@@ -25,21 +25,11 @@ research_areas:
     back:  "Integration of formal argumentation frameworks with multi-criteria decision analysis to evaluate competing alternatives through structured reasoning, evidence weighting, and preference modeling."
   - front: "Hybrid human–machine decision systems & collective intelligence"
     back:  "Study of systems combining human judgment and machine intelligence to improve group decision quality. Explores coordination models, trust calibration, and emergent collective behavior in mixed teams."
+  - front: "Evaluation metrics for multi-agent reasoning systems"
+    back:  "Development of quantitative and qualitative metrics to assess the performance, coherence, consistency, and reproducibility of multi-agent collaborative reasoning processes."
+  - front: "Transparency, auditability, and accountability in AI systems"
+    back:  "Research on methods to ensure that multi-agent AI systems provide interpretable, auditable decision-making processes, including provenance tracking, explanation generation, and governance frameworks."
 ---
-
-<div style="text-align: center; font-size: 0.85rem; font-style: italic; margin-top: 1rem;">
-    "Merlin made the Round Table in tokening of roundness of the world (...)"
-    <br>
-    — Malory, Thomas. <em>Le Morte d’Arthur. Book XX, Chapter XVI</em>
-</div>
-
----
-
-<!-- ########## INTRO ########## -->
-
-## Introduction
-
-*Gawain* (tentative project name) is a **collaborative decision-support platform** where various multi-model AI agents, each with unique role and focus, debate and cooperate under a structured set of rules to help the user reach better, more transparent decisions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -60,6 +50,58 @@ research_areas:
 <p align="center">
   ![Temporal logo of Gawain](assets/img/projects/mas_dss/gawain_white.png){ width=75% }
 </p> -->
+
+---
+
+## TL;DR
+
+*Gawain* is a **multi-agent decision-support** platform where specialized **AI agents** debate and collaborate under structured rules to help users make better decisions. 
+
+The system is designed to tackle complex, real-world decision-making problems by simulating a **Round Table** of expert advisors, enabling structured multi-perspective dialogue and context-building.
+
+It is meant to provide a **transparent, auditable** environment where users can follow the reasoning process, interact with agents, and review results through a dedicated **Dashboard**.
+
+### Key Research Areas
+
+Before starting development, research is needed in areas such as:
+
+**Natural Language Interaction & Semantic Understanding**:
+
+- **semantic requirements mapping**: to translate potentially weakly-stated user problems into structured formats for agents to work with
+- **topic classification & taxonomy design**: to organize discussion content effectively and on the run
+- **conversation-stem tracing & provenance graphs**: to track and visualize the flow of reasoning and evidence throughout the discussion
+
+**Multi-Agent Systems & Collaborative Decision-Making**:
+
+- **multi-agent coordination**: to study and design effective collaboration protocols among AI agents (e.g., communication patterns, role assignments, etc.)
+- **turn orchestration**: to manage the extent and flow of agent contributions
+- **argumentation theory**: to structure debates and evaluate competing claims
+- **incentives & aggregation**: to align agent motivations and fairly combine their inputs (e.g. social choice mechanisms, voting systems, etc.)
+
+**Human–AI Collaboration & Interaction Design**:
+
+- **interface design for collaborative reasoning**: to create user-friendly tools for monitoring and interacting with the system
+- **hybrid human-machine decision systems**: to integrate human oversight with AI collaboration for improved outcomes
+
+**Governance, Evaluation & Assurance**:
+- **evaluation metrics**: to assess the quality of decisions, coherence, consistency, and reproducibility of multi-agent reasoning
+- **transparency & auditability**: to ensure the decision-making process is interpretable and accountable. auditability, privacy, and security considerations.
+
+<!-- ########## INTRO ########## -->
+
+---
+
+<div style="text-align: center; font-size: 0.85rem; font-style: italic; margin-top: 1rem;">
+    "Merlin made the Round Table in tokening of roundness of the world (...)"
+    <br>
+    — Malory, Thomas. <em>Le Morte d’Arthur. Book XX, Chapter XVI</em>
+</div>
+
+---
+
+## Introduction
+
+*Gawain* (tentative project name) is a **collaborative decision-support platform** where various multi-model AI agents, each with unique role and focus, debate and cooperate under a structured set of rules to help the user reach better, more transparent decisions.
 
 ---
 
