@@ -434,6 +434,6 @@ pandoc _projects/7_multi_agent_roundtable.md \
 ```
  -->
 
-Rodrigo Cortés Sánchez
-MIT License © 2024
+Rodrigo Cortés
+© 2025 all rights reserved.
 Last updated: October 2025
