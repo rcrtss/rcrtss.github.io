@@ -1,8 +1,9 @@
 education:
-  # - title: "MSc in Intelligent Interactive Systems - Candidate"
-  #   institution: "Universitat Pompeu Fabra"
-  #   year: "2026"
-  #   url: "https://www.upf.edu/web/iis"
+  - title: "MSc in Intelligent Interactive Systems - Candidate"
+    institution: "Universitat Pompeu Fabra"
+    year: "2026"
+    url: "https://www.upf.edu/web/iis/academic-information"
+    image: "/assets/img/education/logo_miis.png"
   - title: "BSc in Mechatronics Engineering"
     institution: "Anáhuac University"
     year: "2020"
