@@ -1,13 +1,11 @@
 {
   "basics": {
     "name": "Rodrigo Cortés Sánchez",
-    "label": "AI Systems Engineer | Distributed & Embedded AI",
-    "image": "",
+    "label": "AI Systems Engineer",
     "email": "rodrigo.cortess@outlook.com",
     "phone": "(+34) 623 27 43 92",
     "url": "http://www.linkedin.com/in/rodrigo-cortes-s",
-    "summaryLine": "Multi-agent systems · orchestration · evaluation · traceability · edge/IoT",
-    "summary": "AI Systems Engineer building multi-agent systems for reliable production operation. Specialized in orchestrating heterogeneous distributed systems, designing for real-time and energy constraints, and evaluating reliability in edge/IoT environments. Track record across embedded systems, microservices, and agentic orchestration.",
+    "summary": "AI Systems Engineer specializing in multi-agent systems for reliable production environments. Experienced in designing and orchestrating distributed systems across cloud, edge, and embedded contexts, with a focus on system evaluation, interoperability, and real-world constraints. Background spans LLM-based agentic systems, microservices, and real-time embedded software.",
     "location": {
       "address": "Valladolid 2",
       "postalCode": "08014",
@@ -32,230 +30,168 @@
     {
       "name": "Circontrol",
       "position": "Software Engineer",
-      "url": "",
       "startDate": "2023-06-01",
-      "endDate": "",
-      "summary": "Designed and operated microservices orchestrating smart electrical grids and energy management systems. Engineered interoperability across heterogeneous protocols (MQTT, Modbus, REST, gRPC) in production environments.",
+      "summary": "Designed and operated distributed microservices for smart electrical grids and energy management systems in production environments.",
       "highlights": [
-        "Architected distributed microservices for real-time energy system coordination using Go, Docker, and Clean Architecture principles",
-        "Integrated multiple protocol gateways (MQTT, Modbus, REST, gRPC) for device-agnostic control and monitoring",
-        "Hardened system reliability for continuous grid operations with emphasis on fault tolerance and data consistency"
+        "Designed and implemented distributed microservices enabling real-time coordination of energy systems using Go and Docker",
+        "Integrated heterogeneous communication protocols (MQTT, Modbus, REST, gRPC) to achieve device-agnostic control and monitoring",
+        "Improved system reliability and fault tolerance for continuous grid operation through robust service design"
       ]
     },
     {
       "name": "BSV Electronic",
       "position": "R&D Embedded Software Engineer",
-      "url": "",
       "startDate": "2022-07-01",
       "endDate": "2023-06-01",
-      "summary": "Designed firmware and embedded control systems for industrial pool automation, optimizing for deterministic real-time behavior and cost efficiency.",
+      "summary": "Developed embedded firmware and control systems for industrial automation under hard real-time and cost constraints.",
       "highlights": [
-        "Engineered C/C++ firmware for STM32 and ESP32 platforms with hard real-time constraints",
-        "Optimized system architecture for energy efficiency and hardware cost reduction",
-        "Integrated sensor networks and control loops for autonomous pool management"
+        "Engineered C/C++ firmware for STM32 and ESP32 platforms with deterministic real-time behavior",
+        "Optimized system architecture for energy efficiency and reduced hardware cost",
+        "Integrated sensor networks and control loops for autonomous industrial systems"
       ]
     },
     {
       "name": "Altair Engineering",
-      "position": "Software Development Engineer C++",
-      "url": "",
+      "position": "Software Development Engineer (C++)",
       "startDate": "2020-11-01",
       "endDate": "2022-02-01",
-      "summary": "Developed core features for HyperWorks simulation platform, ensuring performance and stability across complex computational workflows.",
+      "summary": "Contributed to core development of large-scale simulation software for engineering workflows.",
       "highlights": [
-        "Optimized critical computational bottlenecks in C++ core library",
-        "Improved system reliability through structured testing and integration practices"
+        "Optimized performance-critical components in C++ core libraries",
+        "Improved software reliability through structured testing and integration practices"
       ]
     },
     {
       "name": "Traxión Logistics",
       "position": "Junior Network and Transportation Engineer",
-      "url": "",
       "startDate": "2020-04-01",
       "endDate": "2020-11-01",
-      "summary": "Designed data infrastructure for logistics network optimization and cost reduction.",
+      "summary": "Built data infrastructure to support logistics network optimization and operational decision-making.",
       "highlights": [
-        "Orchestrated ETL pipelines and business intelligence dashboards for operational visibility",
-        "Implemented route optimization algorithms for cost and time efficiency"
+        "Designed ETL pipelines and business intelligence dashboards for logistics operations",
+        "Implemented route optimization algorithms to reduce transportation cost and delivery time"
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "Universitat Pompeu Fabra (UPF)",
       "location": "Barcelona, Spain",
-      "url": "",
-      "area": "MSc in Intelligent Interactive Systems | Thesis: Multi-Agent Personal Health Assistant",
+      "area": "Intelligent Interactive Systems",
       "studyType": "Master of Science",
       "startDate": "2025-09-01",
       "endDate": "2026-07-01",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Universidad Anáhuac Norte",
-      "location": "Mexico City, Mexico",
-      "url": "",
-      "area": "Mechatronics Engineering",
-      "studyType": "Bachelor of Engineering",
-      "startDate": "2015-08-01",
-      "endDate": "2020-05-01",
-      "score": "",
-      "courses": []
+      "summary": "Thesis: Multi-Agent Personal Health Assistant"
     },
     {
       "institution": "MIT Professional Education",
       "location": "Online",
-      "url": "https://credentials.professional.mit.edu/c29c29ee-a2af-4260-b128-90373fba0f11#acc.8hnsQbEV",
       "area": "Applied Data Science",
       "studyType": "Professional Certificate",
       "startDate": "2024-11-01",
-      "endDate": "2025-04-27",
-      "score": "",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "certificates": [
-    {
-      "name": "IELTS Academic English Certificate (C1)",
-      "date": "",
-      "issuer": "ETS",
-      "url": "",
-      "icon": ""
+      "endDate": "2025-04-27"
     },
     {
-      "name": "Additional coursework: Machine Learning, Deep Learning, Go Programming, FPGA Design, AI Fundamentals",
-      "date": "",
-      "issuer": "Coursera, Udacity",
-      "url": "",
-      "icon": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "Eigenvalue Problem for Vibration Analysis",
-      "publisher": "SMM",
-      "releaseDate": "2018-09-01",
-      "url": "https://www.smm.org.mx/resumen_semblanza.php?t=res&id=1694",
-      "summary": "Presentation on an application of the eigenvalue problem in vibration analysis."
+      "institution": "Universidad Anáhuac Norte",
+      "location": "Mexico City, Mexico",
+      "area": "Mechatronics Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2015-08-01",
+      "endDate": "2020-05-01"
     }
   ],
   "projects": [
     {
-      "name": "AI-Powered Personal Health Assistant: Multi-Agent Framework for Wearable & Health Record Analysis",
-      "summary": "Implementing and evaluating a multi-agent system for personalized health insights, replicating Google's Personal Health Agent (PHA) architecture. Three coordinated specialist agents—data science, domain expert, health coach—process multimodal wearable and health record data. Focus on agentic orchestration, multi-source reasoning, and system evaluation in non-clinical health settings.",
-      "highlights": ["Multi-agent architecture with three specialist subagents", "Orchestration framework integrating heterogeneous data sources (wearables, health records)", "Evaluation methodology for multi-agent reasoning and reliability", "Prototype implementation using general-purpose LLMs"],
-      "startDate": "2025-12-01",
-      "endDate": "",
-      "url": "/projects/"
+      "name": "AI-Powered Personal Health Assistant",
+      "summary": "Designed and evaluated a multi-agent system for personalized health insights using wearable and health record data.",
+      "highlights": [
+        "Designed a multi-agent architecture with specialized agents for data analysis, domain reasoning, and user interaction",
+        "Integrated heterogeneous data sources including wearables and structured health records",
+        "Developed evaluation methods to assess reliability and reasoning consistency of agentic systems",
+        "Implemented prototype using general-purpose large language models"
+      ],
+      "startDate": "2025-12-01"
     },
     {
       "name": "LLM-Based CV Processor System",
-      "summary": "Engineered an agentic LLM system for structured information extraction and document synthesis. Integrated document parsing, semantic understanding, and template-guided generation using LangChain and Python.",
-      "highlights": ["LLM orchestration with LangChain", "Multi-step document processing pipeline", "Structured output generation", "PDF-to-DOCX workflow automation"],
+      "summary": "Built an LLM-driven system for structured document extraction and synthesis.",
+      "highlights": [
+        "Implemented multi-step LLM orchestration using LangChain",
+        "Designed pipelines for document parsing, semantic extraction, and structured output generation",
+        "Automated PDF-to-DOCX document workflows"
+      ],
       "startDate": "2023-11-01",
-      "endDate": "2024-09-01",
-      "url": "/projects/1_cv_assistant/"
-    },
-    {
-      "name": "Autonomous Robot Navigation with Sensor Fusion",
-      "summary": "Designed a real-time motion control system integrating multi-sensor input (Kinect skeleton tracking, obstacle detection) with path planning algorithms for autonomous target following.",
-      "highlights": ["Real-time C++ motion control", "Sensor fusion and skeleton tracking", "Potential field-based path planning", "Deterministic obstacle avoidance"],
-      "startDate": "2016-02-01",
-      "endDate": "2016-06-01",
-      "url": "/projects/3_amr_enit/"
-    },
-    {
-      "name": "Switching Hybrid Recommender System for Music Platforms",
-      "summary": "Developed a hybrid recommendation engine addressing cold-start and sparse data challenges through dynamic user segmentation. Three coordinated strategies—popularity-based for new users, content-based for casual listeners, and collaborative filtering (SVD) for active users—optimize for discovery, engagement, and computational efficiency.",
-      "highlights": ["Hybrid approach with user segmentation and switching logic", "Collaborative filtering via Matrix Factorization (SVD) achieving F1@k=0.502", "Content-based similarity for diversity and catalog freshness", "Handled sparse data and cold-start problem with adaptive ranking"],
-      "startDate": "2024-11-01",
-      "endDate": "2025-04-27",
-      "url": "/projects/2_rec_system/"
+      "endDate": "2024-09-01"
     }
   ],
   "skills": [
     {
-      "name": "Systems & Architecture",
-      "icon": "",
+      "name": "AI & Agentic Systems",
+      "keywords": [
+        "Multi-Agent Systems",
+        "LLM Orchestration",
+        "System Evaluation",
+        "Monitoring and Traceability"
+      ]
+    },
+    {
+      "name": "Distributed & Edge Systems",
       "keywords": [
         "Distributed Systems",
         "Microservices",
-        "Interoperability (MQTT, Modbus, REST, gRPC)",
-        "Edge Computing & IoT",
-        "Real-time Systems"
+        "Edge Computing",
+        "IoT",
+        "Real-Time Systems"
       ]
     },
     {
-      "name": "AI & Agentic Systems",
-      "icon": "",
+      "name": "Programming Languages",
       "keywords": [
-        "Multi-agent Systems",
-        "Orchestration & Coordination",
-        "System Evaluation & Reliability",
-        "LLM Integration",
-        "Monitoring & Traceability"
-      ]
-    },
-    {
-      "name": "Programming",
-      "icon": "",
-      "keywords": [
+        "Python",
         "Go",
-        "C/C++",
-        "Python"
+        "C",
+        "C++"
       ]
     },
     {
       "name": "Tools & Frameworks",
-      "icon": "",
       "keywords": [
-        "LangChain, CrewAI (agentic frameworks)",
-        "PyTorch, Keras, scikit-learn (ML/DL)",
-        "Pydantic (data validation)",
-        "fastAPI (web framework)",
-        "PGMpy (probabilistic graphical models)",
-        "networkx (graph analysis)",
-        "Docker (containerization)",
-        "Linux (infrastructure)"
+        "LangChain",
+        "CrewAI",
+        "PyTorch",
+        "scikit-learn",
+        "FastAPI",
+        "Docker",
+        "Linux"
       ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Applied Data Science",
+      "issuer": "MIT Professional Education"
+    },
+    {
+      "name": "IELTS Academic English Certificate (C1)",
+      "issuer": "ETS"
     }
   ],
   "languages": [
     {
       "language": "Spanish",
-      "fluency": "Native",
-      "icon": ""
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "C1",
-      "icon": ""
+      "fluency": "C1"
     },
     {
       "language": "German",
-      "fluency": "A2",
-      "icon": ""
+      "fluency": "A2"
     },
     {
       "language": "French",
-      "fluency": "A2",
-      "icon": ""
+      "fluency": "A2"
     }
-  ],
-  "interests": [
-    {
-      "name": "Music",
-      "icon": "",
-      "keywords": ["Drums", "Electric Guitar", "Music Technology", "Audio"]
-    },
-    {
-      "name": "Other",
-      "icon": "",
-      "keywords": ["Philosophy", "Scuba Diving"]
-    }
-  ],
-  "references": []
+  ]
 }

@@ -33,9 +33,11 @@ latest_posts:
 Hi there! 👋 Glad to see you around.
 
 <!-- I'm a [hobbyist musician](/music/), [AI enthusiast](/blog/tag/ai/), [mechatronics engineer](/projects/#work), and [software developer](/cv/#work-1) born and raised in Mexico City, currently living in Barcelona. -->
-I'm a hobbyist musician, AI enthusiast, mechatronics engineer, and software developer, born and raised in Mexico City, currently living in Barcelona.
+I'm a mechatronics and AI engineer, born and raised in Mexico City, currently living in Barcelona.
 
-I've been working as a software engineer for five years and I'm currently looking for my next professional challenge.
+I enjoy building things, understanding how systems work, and exploring the intersection between technology and everyday life.
+
+I'm also a hobbyist musician, drummer, and lifelong learner.
 
 <!-- Explore my personal web site to:
 

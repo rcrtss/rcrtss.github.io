@@ -3,8 +3,8 @@ layout: page
 title: 'multi-agent round table platform'
 description: proof of concept for decision-support platform based in a round table discussion (work in progress)
 importance: 2
-category: hidden # wip
-img: "assets/img/projects/mas_dss/gawain_white.png"
+category: wip # wip
+img: "assets/img/projects/mas_dss/roundwise_white.png"
 related_publications: false
 research_areas:
   - front: "Multi-agent coordination and decision-making"
@@ -48,14 +48,14 @@ research_areas:
 
 <!-- PDF Version
 <p align="center">
-  ![Temporal logo of Gawain](assets/img/projects/mas_dss/gawain_white.png){ width=75% }
+  ![Temporal logo of Roundwise](assets/img/projects/mas_dss/roundwise_white.png){ width=75% }
 </p> -->
 
 ---
 
 ## TL;DR
 
-*Gawain* is a **multi-agent decision-support** platform where specialized **AI agents** debate and collaborate under structured rules to help users make better decisions. 
+[*Roundwise*](https://github.com/rcrtss/roundwise) is a **multi-agent decision-support** platform where specialized **AI agents** debate and collaborate under structured rules to help users make better decisions. 
 
 The system is designed to tackle complex, real-world decision-making problems by simulating a **Round Table** of expert advisors, enabling structured multi-perspective dialogue and context-building.
 
@@ -101,13 +101,13 @@ Before starting development, research is needed in areas such as:
 
 ## Introduction
 
-*Gawain* (tentative project name) is a **collaborative decision-support platform** where various multi-model AI agents, each with unique role and focus, debate and cooperate under a structured set of rules to help the user reach better, more transparent decisions.
+*Roundwise* (tentative project name) is a **collaborative decision-support platform** where various multi-model AI agents, each with unique role and focus, debate and cooperate under a structured set of rules to help the user reach better, more transparent decisions.
 
 ---
 
-### Why *Gawain*?
+### Why *Roundwise*?
 
-Let’s use an analogy to introduce *Gawain*.
+Let's use an analogy to introduce *Roundwise*.
 
 Imagine you are a King who wants to **solve a problem** —say, *to negotiate peace among distant lands*. 
 - Your kingdom is vast, inhabited by many kinds of beings, for example: mages, elves, and merfolk.
@@ -117,14 +117,14 @@ Imagine you are a King who wants to **solve a problem** —say, *to negotiate pe
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-50 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_king.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_king.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 
 <!-- PDF Version
 <p align="center">
-  ![ ](assets/img/projects/mas_dss/gawain_king.png){ width=50% }
+  ![ ](assets/img/projects/mas_dss/roundwise_king.png){ width=50% }
 </p> -->
 
 So, instead of relying on a single advisor, the King convenes a **Round Table**: a forum where the most capable experts discuss, challenge, and refine one another’s ideas until the best solution **emerges**.
@@ -132,25 +132,25 @@ So, instead of relying on a single advisor, the King convenes a **Round Table**:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_kingdom.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_kingdom.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 
 <!-- PDF Version
 <p align="center">
-  ![ ](assets/img/projects/mas_dss/gawain_kingdom.png){ width=75% }
+  ![ ](assets/img/projects/mas_dss/roundwise_kingdom.png){ width=75% }
 </p> -->
 
-#### _Gawain_ works the same way:
+#### _Roundwise_ works the same way:
 
 - You define your problem.
 - A team of specialized AI agents is spawned to **collaborate** by taking part in a structured **multi-perspective dialogue**.
 - Throughout the session, the user can interact with the agents via a **Round Table Dashboard**.
 
-_Gawain_ provides you with access to diverse perspectives, structured reasoning, and transparent decision-making support.
+_Roundwise_ provides you with access to diverse perspectives, structured reasoning, and transparent decision-making support.
 
-> In a nutshell, _Gawain_ hopes to bring the power of **collaborative intelligence** to real-world decision-making problems.
+> In a nutshell, _Roundwise_ hopes to bring the power of **collaborative intelligence** to real-world decision-making problems.
 
 ---
 
@@ -171,19 +171,19 @@ That’s why the King needs a **Round Table**.
 
 #### Round Table
 
-The Round Table is the central coordination mechanism of *Gawain*. It’s where AI agents exchange ideas through structured rounds of discussion, guided by the **rules engine**. Each round refines the collective reasoning, converging on higher-quality, multi-perspective solutions.
+The Round Table is the central coordination mechanism of *Roundwise*. It's where AI agents exchange ideas through structured rounds of discussion, guided by the **rules engine**. Each round refines the collective reasoning, converging on higher-quality, multi-perspective solutions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable.jpg" title=" " class="img-fluid rounded z-depth-1" %}    
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_roundtable.jpg" title=" " class="img-fluid rounded z-depth-1" %}    
         </div>
     </div>
 </div>
 
 <!-- PDF Version
 <p align="center">
-  ![ ](assets/img/projects/mas_dss/gawain_roundtable.png){ width=75% }
+  ![ ](assets/img/projects/mas_dss/roundwise_roundtable.png){ width=75% }
 </p> -->
 
 The Round Table embodies collaborative intelligence: agents debate, challenge, and vote according to the scenario’s context.
@@ -199,14 +199,14 @@ The first task of the Gatekeeper is to **understand** your problem statement. If
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-100 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_gatekeeper.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_gatekeeper.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 
 <!-- PDF Version
 <p align="center">
-  ![ ](assets/img/projects/mas_dss/gawain_gatekeeper.png){ width=100% }
+  ![ ](assets/img/projects/mas_dss/roundwise_gatekeeper.png){ width=100% }
 </p> -->
 
 Then, it identifies the most relevant expert roles for the task (e.g., Mage, Elf, Mermaid—each representing an LLM or model specialized in a domain). Normally, 2-4 agents are selected to ensure diversity without overwhelming complexity.
@@ -214,7 +214,7 @@ Then, it identifies the most relevant expert roles for the task (e.g., Mage, Elf
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-100 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_roundtable_card.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_roundtable_card.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -224,7 +224,7 @@ Then, it identifies the most relevant expert roles for the task (e.g., Mage, Elf
 
 <!-- PDF Version
 <p align="center">
-  ![Round Table session card mockup](assets/img/projects/mas_dss/gawain_roundtable_card.png){ width=100% }
+  ![Round Table session card mockup](assets/img/projects/mas_dss/roundwise_roundtable_card.png){ width=100% }
 </p> -->
 
 Finally, it waits for your confirmation of the proposed agent lineup and your validation of the whole setup.
@@ -247,7 +247,7 @@ Expert Agents are autonomous LLM-based participants with specific roles and know
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_experts_interaction.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_experts_interaction.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -257,7 +257,7 @@ Expert Agents are autonomous LLM-based participants with specific roles and know
 
 <!-- PDF Version
 <p align="center">
-  ![Expert Agents interaction mockup](assets/img/projects/mas_dss/gawain_experts_interaction.png){ width=75% }
+  ![Expert Agents interaction mockup](assets/img/projects/mas_dss/roundwise_experts_interaction.png){ width=75% }
 </p> -->
 
 Their interaction is governed by the **Round Table Rules Engine**, ensuring that each round proceeds in an organized manner (e.g., discussion, rebuttal, voting, summarization).
@@ -279,14 +279,14 @@ It specializes in:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_notary.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_notary.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 
 <!-- PDF Version
 <p align="center">
-  ![Notary Agent](assets/img/projects/mas_dss/gawain_notary.png){ width=75% }
+  ![Notary Agent](assets/img/projects/mas_dss/roundwise_notary.png){ width=75% }
 </p> -->
 
 It acts as the official record keeper of the Round Table.
@@ -310,7 +310,7 @@ This ensures that every project follows a transparent, repeatable reasoning prot
 
 ##### Dashboard
 
-The core of _Gawain_ is the **Dashboard**, the user interface connecting you to the entire system. It is the bridge between you (the King) and the Round Table, and is the _support_ part of the decision-making process.
+The core of _Roundwise_ is the **Dashboard**, the user interface connecting you to the entire system. It is the bridge between you (the King) and the Round Table, and is the _support_ part of the decision-making process.
 
 Here is where the King can follow the discussion, analyze conversation traces, interact with agents, and review results.
 
@@ -326,7 +326,7 @@ Particularly, the Dashboard allows you to:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-75 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_dashboard.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_dashboard.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -336,7 +336,7 @@ Particularly, the Dashboard allows you to:
 
 <!-- PDF Version
 <p align="center">
-  ![Dashboard mockup](assets/img/projects/mas_dss/gawain_dashboard.png){ width=75% }
+  ![Dashboard mockup](assets/img/projects/mas_dss/roundwise_dashboard.png){ width=75% }
 </p> -->
 
 
@@ -344,22 +344,22 @@ Particularly, the Dashboard allows you to:
 
 #### Putting It All Together
 
-_Gawain_ sets up a structured environment where multiple AI agents collaborate under human supervision to help tackle complex problems.
+_Roundwise_ sets up a structured environment where multiple AI agents collaborate under human supervision to help tackle complex problems.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="w-100 mx-auto">
-            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/gawain_02.png" title=" " class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid loading="eager" path="assets/img/projects/mas_dss/roundwise_02.png" title=" " class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
 <div class="caption">
-    Minimalist overview of the Gawain multi-agent decision-support system.
+    Minimalist overview of the Roundwise multi-agent decision-support system.
 </div>
 
 <!-- PDF Version
 <p align="center">
-  ![ ](assets/img/projects/mas_dss/gawain_02.jpg){ width=100% }
+  ![ ](assets/img/projects/mas_dss/roundwise_02.jpg){ width=100% }
 </p> -->
 
 > A team of experts at your hands. Structured, multi-perspective reasoning. Transparency and control.
@@ -369,7 +369,7 @@ _Gawain_ sets up a structured environment where multiple AI agents collaborate u
 ##### Real World Example
 
 Suppose a **tech startup** wants to decide whether to migrate from local servers to the cloud.  
-Here’s how *Gawain* operates:
+Here's how *Roundwise* operates:
 
 1. The CEO describes the problem: *“Should we move our infrastructure to the cloud?”*
 2. The **Gatekeeper** clarifies questions about company size, security needs, and cost constraints.
@@ -427,7 +427,7 @@ document.addEventListener('DOMContentLoaded',function(){
 To export to pdf, run:
 ```bash
 pandoc _projects/7_multi_agent_roundtable.md \
-  -o gawain.pdf \
+  -o roundwise.pdf \
   --pdf-engine=xelatex \
   --resource-path=. \
   --embed-resources
